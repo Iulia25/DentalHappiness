@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+}
+
+a{
+	text-decoration: none;
+}
+
+ol, li{
+	list-style-type: none;
+}
+
+hr{
+	color: #eee;
+	margin-bottom: 5px;
+}
+
+#meniu{
+	display: flex;
+	width: 100%;
+}
+
+#meniu li{
+	margin-left: 4px;
+	background-color: #eee;
+	padding: 10px 15px;
+	flex-grow: 1;
+}
+
+#meniu a{
+	color: #000;
+}
+
+#center-cont{
+	display: flex;
+	margin: 20px 0;
+}
+
+#formular{
+	width: 25%;
+}
+
+.op{
+	font-size: 18px;
+	padding: 10px;
+	color: #fff;
+	margin-bottom: 2px;
+}
+
+.exp{
+	padding: 10px;
+	background-color: #eee;
+	,margin-bottom: 2px;
+}
+
+select{
+	width: 80%;
+}
+
+.green{
+    background-color: green;
+}
+
+.purple{
+    background-color: mediumpurple;
+}
+
+.cyan{
+	background-color: cyan;
+}
+
+.lightgreen{
+	background-color: lightgreen;
+}
+
+.orange{
+	background-color: orange;
+}
+
+#image-and-text{
+	background: url("https://wtop.com/wp-content/uploads/2020/05/dentist.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 50px;
+	text-decoration: underline;
+}
+
+#image-and-text p{
+	font-size: 30px;
+	width: 450px;
+}
+
+#image-and-text span{
+	font-family: cursive;
+}
+
+#trei-casete{
+	display: flex;
+	background-color: #eee;
+	padding: 20px;
+}
+
+.caseta{
+	margin: 0 20px ;
+}
+
+.principal{
+	font-size: 20px;
+	padding: 10px 0 20px 0;
+}
